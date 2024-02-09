@@ -20,7 +20,7 @@ function InfoPage() {
       <div>This is my homepage</div>
       <LoadingDiv />
       <Checkbox isChecked={stayLoggedIn} onClick={onClickStayLoggedIn} />
-      {/* <StandardBtn onClick={handleClick}>Klick mich!</StandardBtn> */}
+      <StandardBtn text={"Klick mich!"} onClick={handleClick}></StandardBtn>
       <button onClick={handleClick}>Klick mich!</button>
     </div>
   );
